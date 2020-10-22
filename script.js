@@ -1,4 +1,4 @@
-const API_URL = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
+const API_URL = 'https://api.vk.com/method/users.get?user_id=210700286&v=5.52';
 
 function makeGETRequest(url, callback) {
         var xhr;
@@ -40,7 +40,7 @@ class GoodsList {
         this.goods = [];
     }
     fetchGoods(cb) {
-        makeGETRequest(`${API_URL}/catalogData.json`, (goods) => {
+        makeGETRequest(API_URL, (goods) => {
             this.goods = JSON.parse(goods);
             cb();
         })
@@ -48,7 +48,7 @@ class GoodsList {
     render() {
         let listHtml = '';
         this.goods.forEach(good => {
-            const goodItem = new GoodsItem(good.product_name, good.price);
+            const goodItem = new GoodsItem(good.first_name, good.last_name);
             listHtml += goodItem.render();
         });
         document.querySelector('.goods-list').innerHTML = `<h2>Товары</h2> ${listHtml}`
