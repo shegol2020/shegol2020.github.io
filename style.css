@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.h2{
+    color: brown;
+}
+
+.cart-button{
+    margin: 5px 10px 5px 0px;
+    height: 20px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.goods-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.goods-item{
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 5px;
+}
+.goods-basket{
+    display: flex;
+    justify-content: space-around;
+}
+
+.basket-list{
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 5px;
+}
