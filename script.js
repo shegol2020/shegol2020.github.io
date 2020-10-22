@@ -42,6 +42,7 @@ class GoodsList {
     fetchGoods(cb) {
         makeGETRequest(API_URL, (goods) => {
             this.goods = JSON.parse(goods);
+            console.log(this.goods);
             cb();
         })
     }
