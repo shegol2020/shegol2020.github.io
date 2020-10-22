@@ -32,7 +32,7 @@ class GoodsItem {
         this.price = price;
     }
     render() {
-        return `<div class="goods-item"><h3>${this.product_name}</h3><p>${this.price}</p></div>`;
+        return `<div class="goods-item"><h3>${this.last_name}</h3><p>${this.first_name}</p></div>`;
     }
 }
 class GoodsList {
