@@ -13,12 +13,7 @@
   justify-content: space-between;
 }
 
-.text {
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.05em;
-opacity: 0.6;
-  color: #1F3F68;
+.user-info{
+     display: flex;
+  justify-content: space-between;
 }
-
