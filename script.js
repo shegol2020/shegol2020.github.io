@@ -16,8 +16,8 @@
             
         }
         renderUser() {
-            return `<div class="test_container"><div class="user-info"><p>${this.first_name} ${this.last_name}</p>
- <div class="users-photo"><img src="${this.photo_100}"></div></div>
+            return `<div class="user-info"><p>${this.first_name} ${this.last_name}</p>
+ <div class="users-photo"><img src="${this.photo_100}"></div>
 </div>`;                   
         }
     }
@@ -39,7 +39,7 @@
                 console.log(userInfo);
                     listHtml += userInfo.renderUser();
                 });
-            document.querySelector('.users-list').innerHTML = `${listHtml}`
+            document.querySelector('.users-list').innerHTML = `<div class="test_container">${listHtml}</div>`
             }
     }
 function f1() {
