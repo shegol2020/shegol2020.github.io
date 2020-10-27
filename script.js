@@ -36,7 +36,7 @@
                     const userInfo = new User(i.first_name, i.last_name);    
                     listHtml += userInfo.renderUser();
                 });
-            document.querySelector('.user-list').innerHTML = `<h2>Пользователи</h2> ${listHtml}`
+            document.querySelector('.users-list').innerHTML = `<h2>Пользователи</h2> ${listHtml}`
             }
     }
 function f1() {
