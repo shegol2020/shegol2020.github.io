@@ -14,7 +14,7 @@
             this.last_name = last_name;
         }
         renderUser() {
-            return `<div class="user-info"><p>${this.first_name}${this.last_name}</p></div>`;                   
+            return `<div class="user-info"><p>${this.first_name} ${this.last_name}</p></div>`;                   
         }
     }
 
@@ -34,7 +34,7 @@
                     const userInfo = new User(i.first_name, i.last_name);    
                     listHtml += userInfo.renderUser();
                 });
-            document.querySelector('.users-list').innerHTML = `<h2>Пользователи</h2> ${listHtml}`
+            document.querySelector('.users-list').innerHTML = `${listHtml}`
             }
     }
 function f1() {
