@@ -8,11 +8,6 @@
   margin: 0 auto; 
 } 
 
-.user-info{
-    display: flex;
-    background-color: red;
-}
-
 .btn{
     align-self: center;
     margin-top:10px;
