@@ -17,7 +17,7 @@
         }
         renderUser() {
             return `<div class="user-info"><p>${this.first_name} ${this.last_name}</p>
- <div class="users-photo"><img src="https://webkit.org/demos/srcset/image-src.png"></div>
+ <div class="users-photo"><img src="https://webkit.org/demos/srcset/image-src.png"><img src="${this.photo_100}"></div>
 </div>`;                   
         }
     }
