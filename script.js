@@ -43,6 +43,6 @@ function f1() {
     let myUser = new UserList();
 
     myUser.fetchUser(() => {
-        myUser.renderUser();
+        myUser.renderList();
     })
 }
