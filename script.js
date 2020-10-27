@@ -35,7 +35,8 @@
             //console.log(this.list);
             //console.log(this.list.first_name);
             this.list.forEach(i => {
-                    const userInfo = new User(i.first_name, i.last_name, i.photo_100);    
+                    const userInfo = new User(i.first_name, i.last_name, i.photo_100);
+                console.log(userInfo);
                     listHtml += userInfo.renderUser();
                 });
             document.querySelector('.users-list').innerHTML = `${listHtml}`
