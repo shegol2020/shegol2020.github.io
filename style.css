@@ -8,6 +8,11 @@
   margin: 0 auto; 
 } 
 
+.test_container{
+    display:flex;
+    justify-content: space-between;
+}
+
 .btn{
     align-self: center;
     margin-top:10px;
