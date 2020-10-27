@@ -17,8 +17,8 @@
             
         }
         renderUser() {
-            return `<div class="user-info"><p>${this.first_name} ${this.last_name}</p>
- <div class="users-photo">${this.city.title} <img src="${this.photo_100.url}"</div>
+            return `<div class="user-info"><p>${this.first_name} ${this.last_name} ${this.city.title}</p>
+ <div class="users-photo"><img src="${this.photo_100.url}"</div>
 </div>`;                   
         }
     }
