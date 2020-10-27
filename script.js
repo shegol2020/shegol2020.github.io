@@ -1,6 +1,6 @@
     var user = [];
     var script = document.createElement('SCRIPT');
-    script.src = "https://api.vk.com/method/users.get?user_ids=255,254&fields=photo_100&v=5.124&callback=callbackFunc&access_token=ad29adf1ad29adf1ad29adf1efad371086aad29ad29adf1f67c3f137270830a839f4c27";
+    script.src = "https://api.vk.com/method/users.get?user_ids=7451,254&fields=photo_100&v=5.124&callback=callbackFunc&access_token=c4f995f2c4f995f2c4f995f204c48d0b16cc4f9c4f995f29b61c43eb577258c6a7f916c";
     console.log(script.src);
     document.getElementsByTagName("head")[0].appendChild(script);
     function callbackFunc(result) {
