@@ -16,7 +16,7 @@
         }
         renderUser() {
             return `<div class="user-info"><p>${this.first_name} ${this.last_name}</p>
- <div class="users-photo">${this.city}</div>
+ <div class="users-photo">${this.city.title}</div>
 </div>`;                   
         }
     }
