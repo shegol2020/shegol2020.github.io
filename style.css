@@ -8,11 +8,6 @@
   margin: 0 auto; 
 } 
 
-.test_container{
-     display: flex;
-  justify-content: space-between;
-}
-
 .user-info{
      display: flex;
   justify-content: space-between;
